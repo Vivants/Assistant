@@ -43,7 +43,7 @@ def connect_vpn(name):
 class LoginGUI:
     def __init__(self, master):
         self.master = master
-        master.title("Assistant数据库版")
+        master.title("项目助手数据库版V0.01")
         master.iconbitmap(os.path.join(basedir, 'Goomba.ico'))
         GUI_img = Image.open(os.path.join(basedir, 'bg.png'))
         GUI_w, GUI_h = GUI_img.size
